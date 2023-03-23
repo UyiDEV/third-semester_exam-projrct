@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600;800&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Dosis', sans-serif;
+	outline: none; 
+	border: none;
+}
+
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+body{
+	overflow-x: hidden;
+	background-color: #050505;
+	padding-left: 35rem;
+}
+
+.heading{
+	text-align: center;
+	margin: 0 6rem;
+	font-size: 4rem;
+	padding: 1rem;
+	border-bottom: .1rem solid gray;
+	color: white;
+}
+
+.heading span{
+	color: gray;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	height: 100%;
+	width: 35rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	text-align: center;
+	background: gray;
+}
+
+header .head img{
+	height: 17rem;
+	width: 17rem;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 1rem;
+	background-color: gray;
+	border: .7rem solid black;
+}
+
+header .head .logo{
+	font-size: 3.5rem
+}
+
+header .navbar{
+	width: 100%;
+}
+
+header .navbar ul{
+	list-style: none;
+	padding: 1rem 10rem;
+}
+
+header .navbar ul li a{
+	display: block;
+	padding: 1rem;
+	margin: 1.5rem 0;
+	color: white;
+	font-size: 2rem;
+	border-radius: 5rem;
+	text-decoration: none;
+}
+
+header .navbar ul li a:hover{
+	background: #333;
+}
+
+.index{
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+	padding: 0 5rem;
+}
+
+.index h3{
+	font-size: 2.5rem;
+	color: #fff;
+}
+
+.index p{
+	font-size: 2rem;
+	color: #eee;
+	padding: 2rem 0;
+}
+
+.edu-info {
+	font-size: 2rem;
+	color: #eee;
+  box-sizing:;
+  text-align: flex;
+  margin-bottom: 5px;
+}
+
+.index .info{
+	flex: 1 1 48rem;
+	padding: 2rem 1rem;
+	padding-left: 6rem;
+}
+
+.contact .row{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.register .row{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.login .row{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.contact .row form{
+	flex: 1 1 45rem;
+	padding: 2rem;
+	margin: 2rem;
+	margin-bottom: 4rem;
+}
+
+.register .row form{
+	flex: 1 1 45rem;
+	padding: 2rem;
+	margin: 2rem;
+	margin-bottom: 4rem;
+}
+
+.login .row form{
+	flex: 1 1 45rem;
+	padding: 2rem;
+	margin: 2rem;
+	margin-bottom: 4rem;
+}
+
+.contact .row form .box{
+	padding: 1.5rem;
+	margin: 1rem 0;
+	background: #3333;
+	color: #757575;
+	text-transform: none;
+	font-size: 1.7rem;
+	width: 100%;
+}
+
+.register .row form .box{
+	padding: 1.5rem;
+	margin: 1rem 0;
+	background: #3333;
+	color: #757575;
+	text-transform: none;
+	font-size: 1.7rem;
+	width: 100%;
+}
+
+.login .row form .box{
+	padding: 1.5rem;
+	margin: 1rem 0;
+	background: #3333;
+	color: #757575;
+	text-transform: none;
+	font-size: 1.7rem;
+	width: 100%;
+}
+
+.contact .row form .message{
+	height: 15rem;
+	resize: none;
+}
+
+.contact .row .title{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 1rem;
+	padding-top: 1rem;
+}
+
+.login .title{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 1rem;
+	padding-top: 1rem;
+}
+
+.btn{
+	padding: .7rem 3rem;
+	background: #333;
+	color: #fff;
+	margin-top: 1rem;
+	font-size: 2rem;
+	border-radius: 5rem;
+}
+
+.btn:hover{
+	background: black;
+}
+
+section{
+	min-height: 100vh;
+	padding: 1rem;
+}
+
+.calculators .links .btn a{
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+.calculators .links aside{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+
