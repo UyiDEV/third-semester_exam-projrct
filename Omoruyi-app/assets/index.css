@@ -85,11 +85,18 @@ header .navbar ul li a:hover{
 	background: #333;
 }
 
+section{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+
 .index{
 	display: flex;
 	align-items: center;
 	flex-flow: column;
-	padding: 0 5rem;
+	padding: 10rem 5rem;
 }
 
 .index h3{
@@ -106,9 +113,9 @@ header .navbar ul li a:hover{
 .edu-info {
 	font-size: 2rem;
 	color: #eee;
-  box-sizing:;
-  text-align: flex;
-  margin-bottom: 5px;
+  	box-sizing: 0;
+  	text-align: flex;
+  	margin-bottom: 5px;
 }
 
 .index .info{
